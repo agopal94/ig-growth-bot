@@ -11,7 +11,7 @@ const { exec } = require('child_process');
         await ig.login(configs.userId, configs.password);
         logger.info('===================== Login Successful =========================');
         await runHashPage();
-        logger.info('===================== Starting Runner Proc =========================');
+        logger.info('===================== Ending Runner Proc =========================');
     }
     catch (err) {
         logger.error('Error in Runner Proc:: ' + err);
